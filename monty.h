@@ -45,5 +45,7 @@ void swap(stack_t **stack, unsigned int line_number);
 ssize_t getline(char **line, size_t *size, FILE *file);
 char *op_code(void);
 void the_func(stack_t **stack, unsigned int line_number, char *opcode);
+void add(stack_t **stack, unsigned int line_number);
+void nop(stack_t **stack, unsigned int line_number);
 
 #endif
