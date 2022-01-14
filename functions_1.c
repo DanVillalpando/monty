@@ -60,6 +60,9 @@
 
 	(void) line_number;
 	temp = *stack;
+	if (temp ==NULL)
+	  (void) temp;;
+	
 	while (temp != NULL)
 	{
 		printf("%d\n", temp->n);
